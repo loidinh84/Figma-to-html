@@ -36,7 +36,6 @@ a {
   border-radius: 999px;
   line-height: 50px;
   min-width: 118px;
-
 }
 .btn:hover {
   opacity: 0.9;
@@ -123,6 +122,7 @@ a {
   right: 0;
   box-shadow: 0px 16px 32px 0px #0000000d;
   background-color: #fff;
+  border-radius: 12px;
 }
 .hero-summary .item {
   align-items: center;
@@ -176,24 +176,24 @@ a {
   font-weight: 700;
   color: #171100;
 }
-.hero .desv{
+.hero .desv {
   margin-top: 22px;
-font-weight: 400;
-font-size: 1.8rem;
-line-height: 1.67;
-color: #5f5b53;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 1.67;
+  color: #5f5b53;
 }
 .hero .cta-group {
   display: flex;
   margin-top: 38px;
   align-items: center;
 }
-.hero-cta{
+.hero-cta {
   min-width: 180px;
   line-height: 64px;
   background-color: var(--primary-color);
 }
-.hero .watch-video{
+.hero .watch-video {
   border: none;
   background: transparent;
   display: flex;
@@ -201,37 +201,37 @@ color: #5f5b53;
   align-items: center;
   cursor: pointer;
 }
-.hero .watch-video .icon{
+.hero .watch-video .icon {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 40px;
   height: 40px;
   border-radius: 40px;
-  background :#fff;
+  background: #fff;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.07);
 }
-.hero .watch-video span{
-  color:  #171100;
-font-weight: 600;
-font-size: 1.8rem;
-line-height: 1.67;
-margin-left: 14px;
+.hero .watch-video span {
+  color: #171100;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.67;
+  margin-left: 14px;
 }
-.hero .recent{
+.hero .recent {
   margin-top: 48px;
 }
-.hero .stats{
+.hero .stats {
   margin-top: 8px;
 }
-.hero .stats strong{
+.hero .stats strong {
   font-family: var(--font-heading);
   color: #171100;
-font-weight: 700;
-font-size: 4.4rem;
-line-height: 1.23;
-margin-right: 15px;
+  font-weight: 700;
+  font-size: 4.4rem;
+  line-height: 1.23;
+  margin-right: 15px;
 }
-.hero .stats strong:nth-child(2){
+.hero .stats strong:nth-child(2) {
   margin-left: 28px;
 }
