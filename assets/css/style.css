@@ -49,6 +49,18 @@ a {
   opacity: 0.9;
   cursor: pointer;
 }
+.line-clamp{
+  display: -webkit-box;
+  -webkit-line-clamp: var(--line-clamp, 1) ;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.line-clamp.line-2{
+  -webkit-line-clamp: 2;
+}
+.break-all{
+  word-break: break-all;
+}
 /* ========header========== */
 .header {
   background: #fffcf4;
@@ -286,6 +298,7 @@ a {
   gap: 30px;
 }
 .popular .course-item {
+  flex: 1;
   border-radius: 12px;
   background-color: #fff;
   border: 1px solid #e2dfda;
@@ -318,6 +331,7 @@ a {
   font-size: 1.8rem;
   line-height: 1.67;
 }
+
 .popular .rating .value {
   margin-left: 6px;
   color: #fea31b;
